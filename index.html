@@ -120,7 +120,7 @@
     </div>
   </div>
 
-  <!-- Modal -->
+  <!-- Modals -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -136,7 +136,28 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary"><a href="https://www.thecagecage.com/" target="_blank">Pointless button don't click</a></button>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#toldYouSo"><a href="https://www.thecagecage.com/" onclick="$('#exampleModal').modal('hide')" target="_blank">Pointless button don't click</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="toldYouSo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">I told you not to click it</h5>
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          I told you not to click it
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary">I told you not to click it</button>
+          <button type="button" class="btn btn-primary">I told you not to click it</button>
         </div>
       </div>
     </div>
