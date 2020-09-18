@@ -3,12 +3,36 @@
   margin-bottom: 100px;
 }
 
+.carousel-item {
+  text-shadow: 1px 1px 1px black;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
 .card {
   margin: 0 auto;
 }
 
 .my-cards {
   margin-bottom: 50px;
+}
+.my-cards img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+button a:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 /*# sourceMappingURL=styles.css.map */
